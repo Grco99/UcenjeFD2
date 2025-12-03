@@ -1,0 +1,36 @@
+/**https://htmlcheatsheet.com/css**/    
+
+body{
+    background: #053EA4;
+background: -moz-linear-gradient(left, #053EA4 0%, #753966 100%);
+background: -webkit-linear-gradient(left, #053EA4 0%, #753966 100%);
+background: linear-gradient(to right, #053EA4 0%, #753966 100%);
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    
+    ". a a b"
+    "c d d b"
+    "e e e b";
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}     
+.c{grid-area: c;}
+.d{grid-area: d;}  
+.e{grid-area: e;}
+
+div{
+background-color: aliceblue;
+border-radius: 2rem;
+font size: 4rem;
+padding:2rem;
+border: 4px dotted red;
+margin: 1rem;
+}
+
+a{
+    color: red;
+}
