@@ -1,0 +1,37 @@
+body{
+    background: #FFFFFF;
+background: -moz-linear-gradient(left, #FFFFFF 0%, #2388CB 72%, #FFFFFF 100%);
+background: -webkit-linear-gradient(left, #FFFFFF 0%, #2388CB 72%, #FFFFFF 100%);
+background: linear-gradient(to right, #FFFFFF 0%, #2388CB 72%, #FFFFFF 100%);
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    
+    "p1 p1 p1 p1"
+    "p2 . . p4"
+    "p2 s1 s1 p4"
+    "p2 . . p4"
+    "p2 s2 s2 p4"
+    "p2 . . p4"
+    "p5 p5 p5 p5";
+
+}
+
+.p1{grid-area: P1;}
+.p2{grid-area: P2;}     
+.p4{grid-area: P4;}
+.p5{grid-area: P5;}  
+.s1{grid-area: S1;}
+.s2{grid-area: S2;}
+.s3{grid-area: S3;}
+
+div{
+background-color: aliceblue;
+border-radius: 2rem;
+font size: 4rem;
+padding:2rem;
+border: 4px dotted red;
+margin: 1rem;
+}
