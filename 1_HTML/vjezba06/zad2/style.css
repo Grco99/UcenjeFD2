@@ -1,0 +1,81 @@
+body{
+<<<<<<< HEAD
+    background-color: antiquewhite;
+
+=======
+    background-color: #eee;
+>>>>>>> b88743148117075e46d335bdacb36049caa8b017
+}
+
+.container{
+    max-width: 960px;
+<<<<<<< HEAD
+    margin:auto;
+  /*background-color: aqua; */
+  display: grid;
+  grid-template-areas: "a b c d ";
+  column-gap: 1rem;
+}
+
+.a{grid-area: a;}
+.a{grid-area: b;}
+.a{grid-area: c;}
+.a{grid-area: d;}
+
+.panel{
+    background-color: white;
+padding: 10px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+font-family: sans-serif;
+=======
+    margin: auto;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-areas: "a b c d";
+    column-gap: 1rem;
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+
+.panel{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+>>>>>>> b88743148117075e46d335bdacb36049caa8b017
+}
+
+.cijena{
+    color: green;
+    font-weight: 900;
+    font-size: 1.5rem;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b88743148117075e46d335bdacb36049caa8b017
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.1rem;
+<<<<<<< HEAD
+
+=======
+}
+
+h1{
+    font-size: 1.5rem;
+>>>>>>> b88743148117075e46d335bdacb36049caa8b017
+}
