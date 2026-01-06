@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff 0%, #f3f4f6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.main-card {
+    text-align: center;
+}
+
+.badge {
+    background-color: #ff5f6d;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.side-card {
+    flex: 1;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+    border-bottom: 2px solid #f3f4f6;
+    padding-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #ff5f6d;
+    font-weight: bold;
+}
+
+/* Donja kartica (Ocjena) */
+.footer-card {
+    text-align: center;
+    padding: 15px;
+}
+
+.stars {
+    font-size: 30px;
+    color: #ffb400;
+}
+
+.stars .empty {
+    color: #d1d5db;
+}
+
