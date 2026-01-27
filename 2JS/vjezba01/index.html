@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Hello world</title>
+    <style>
+    .nojs{
+        background-color: red;
+        color: white;
+        font-size: 2rem;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+<p id="ispis">
+
+</p>
+<div id="ue">
+
+</div>
+
+<button onclick="alert('Hello World 9')">
+    Klikni me
+</button>
+
+<div
+onmouseover="this.style.backgroundColor='red'"
+onmouseleave="this.style.backgroundColor='white'"
+>
+    Edunova
+</div>
+
+<input type="text" name="" id=""
+onkeyup="this.value=this.value.toUpperCase()"
+>
+    
+    <noscript>
+    <div class="nojs">
+        <!-- Vaš preglednik ne podržava JavaScript! -->
+    </div>
+
+    </noscript>
+<!-- Ako želimo izvoditi JS direktno iz HTML     -->
+    <script>
+//Ovo je jedna linija komentara
+/* 
+Ovo je kometar kroz više linija 
+*/
+//alert('Hello World 1');// ; ne treba ali kako je predavač matori developer stavljati ću ju 
+
+document.write('Hello World 2');
+
+console.log('Hello World 3') ;
+
+//console.logiraj('Hello World 4'); //Uncaught TypeError: console.logiraj is not functional
+
+//console.log'Hello World 5'); //nedostaje (uncaught Syntax Error: Unexpected string )
+
+
+</script>
+
+<!-- Učitavanje vanjske JS datoteke -->
+ <script src="skripta.js"></script>
+</body>
+</html>
